@@ -4,22 +4,22 @@
 
 ## Independent systems
 
-| Repository | Capability | Status | Hub action |
+| Repository or direction | Capability | Status | Hub action |
 | --- | --- | --- | --- |
-| [FitGround](https://github.com/Benjamindaoson/FitGround) | Physics-grounded decision engine | Public flagship | Link only; remain independent |
-| [Embodied-DataOps](https://github.com/Benjamindaoson/Embodied-DataOps) | Embodied data infrastructure and VLA workflow | Active build | Link only; remain independent |
-| `smolvla-libero-plus-micro-pilot` | SmolVLA + LIBERO-Plus OOD adaptation study | Private active research | Remain independent and private until evidence is stable |
+| [FitGround](https://github.com/Benjamindaoson/FitGround) | Physics-grounded next-edit decision engine | **Flagship** | Link only; remain independent |
+| [Embodied-DataOps](https://github.com/Benjamindaoson/Embodied-DataOps) | Embodied data infrastructure and VLA workflow | **Research** · active build | Link only; remain independent |
+| SmolVLA + LIBERO-Plus OOD adaptation | Matched-checkpoint adaptation study | **Research** · private | Describe direction only; no private link |
 
 ## Research tracks
 
-| Track | Core artifact | Evidence required |
+| Track | Core artifact | Status and evidence required |
 | --- | --- | --- |
-| Embodied DataOps | Dataset schema, validation, lineage, replay, storage | Runnable pipeline and dataset-quality reports |
-| VLA adaptation | Matched checkpoints and controlled OOD protocol | Frozen eligibility rule, repeated evaluation, uncertainty |
-| Teleoperation | Demonstration collection and operator workflow | Latency, failure, and intervention records |
-| Simulation-to-real | Comparable task and observation contracts | Explicit sim/real gap and transfer protocol |
-| Remote robotics | Node health, recovery, and exception handling | Auditable safety and recovery events |
-| Tactile learning | DIGIT-aligned observations and policies | Sensor calibration and synchronized data |
+| Embodied DataOps | Dataset schema, validation, lineage, replay, storage | **Research** · runnable pipeline and data-quality reports |
+| VLA adaptation | Matched checkpoints and controlled OOD protocol | **Research** · frozen eligibility, repeated evaluation, uncertainty |
+| Teleoperation | Demonstration collection and operator workflow | **Research** · latency, failure, and intervention records |
+| Simulation-to-real | Comparable task and observation contracts | **Research** · explicit sim/real gap and transfer protocol |
+| Remote robotics | Node health, recovery, and exception handling | **Research** · auditable safety and recovery events |
+| Tactile learning | DIGIT-aligned observations and policies | **Research** · calibrated, synchronized data |
 
 ## Current infrastructure plan
 
@@ -30,8 +30,8 @@
 | Intel RealSense D405 ×1 | Close-range RGB-D sensing |
 | DIGIT ×2 | Tactile sensing and contact-rich manipulation |
 
-This table is a plan, not a procurement or deployment claim.
+This is a plan, not a procurement or deployment claim.
 
-## Migration candidates
+## Intake rule
 
-No public repository is approved for migration yet. New small demos should enter this Hub only when they are bounded, reproducible, and do not duplicate the independent flagship systems.
+New demos enter this Hub only when bounded and reproducible. They remain independent if they represent a flagship capability; private experiments are described without repository links.
