@@ -60,3 +60,8 @@ The intended lab architecture supports a campus hub plus distributed robot nodes
 ## Repository policy
 
 Flagship and active research systems remain independent. Small simulation or control demos may later be consolidated under `projects/`, but only after licenses, assets, and reproducibility are verified.
+
+
+## Governance
+
+This Hub follows the shared status taxonomy, link-only policy, private-research boundary, and release/archive synchronization checklist in [GOVERNANCE.md](GOVERNANCE.md).
