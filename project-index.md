@@ -1,5 +1,7 @@
 # Embodied AI Lab — Project Index
 
+> Status labels and update rules: [Governance policy](GOVERNANCE.md).
+
 ## Independent systems
 
 | Repository | Capability | Status | Hub action |
